@@ -1,0 +1,75 @@
+/* *{
+    margin: 0;
+} */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+body{
+    background-color: rgb(247, 241, 234);
+}
+
+.product_card{
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.12);
+}
+.image_section{
+    width: 400px;
+    height: 500px;
+    /* background-color: red; */
+    border-radius: 20px 0px 0px 20px;
+}
+.image{
+    width: 400px;
+    height: 500px;
+   border-radius: 20px 0px 0px 20px;
+}
+.content_section{
+    width: 400px;
+    height: 500px;
+    /* background-color: red; */
+    border-radius: 0px 20px 20px 0px;
+}
+#heading{
+    font-size: 50px;
+    margin-left: 40px;
+    margin-top: 60px;
+
+}
+#snf{
+    font-size: 20px;
+    color: gray;
+    margin-left: 40px;
+    padding-bottom: 20px;
+    margin-top: -34px;
+    font-family: sans-serif;
+}
+#paragraph{
+    font-size: 23px;
+    color: rgb(205, 204, 204);
+    margin-left: 40px;
+}
+#price{
+    margin-top: -40px;
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#button{
+   width: 200px;
+   height: 60px;
+   margin-left: 130px;
+   margin-top: 40px;
+   border-radius: 30px;
+   background-color: rgb(135, 228, 211);
+   color: white;
+   font-size: 20px;
+   border-style: none;
+}

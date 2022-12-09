@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body{
+   background-color: rgba(58, 197, 134, 0.589);
+}
+.content{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.12);
+}
+.container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   background-color: white;
+   height: 400px;
+   width: 700px;
+   box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.12);
+
+}
+.product_section{
+    height: 400px;
+    width: 700px;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.12);
+    /* background-color:black; */
+}
+.title_section{
+    height: 80px;
+    width: 700px;
+    background-color: white;
+    display: flex;
+
+    border-color: black;
+ }
+ .back{
+    height: 30px;
+    padding-left: 20px;
+ }
+ #back{
+    background:none;
+    border: none;
+ }
+ #top_text{
+    margin-left: 15px;
+    margin-top: 28px;
+    font-family: sans-serif;
+    color: rgb(89, 89, 89);
+    font-weight: 100;
+ }
+ #heart{
+   width: 50px;
+   height: 50px;
+   margin-top: 15px;
+   margin-left: 360px;
+   border-style: none;
+   background: none;
+ }
+ .love{
+   width: 25px;
+ }
+hr{
+   height: 1px;
+   background-color:  rgb(214, 214, 214);
+   border: none;
+}
+.image_section{
+   height: 320px;
+   width: 700px;
+   background-color: white;
+   display: flex;
+}
+.image_container{
+   width: 350px;
+   height: 327px;
+   background-color: white;
+   border-right: 2px;
+   border-left: 0px;
+   border-top: 0px;
+   border-bottom: 0px;
+   border-style: solid;
+   border-color: rgb(214, 214, 214);;
+   margin-top: -8px;
+}
+.img{
+    width: 200px;
+    height: 325px;
+    margin-top: 3px;
+    margin-left: 70px;
+}
+.text_section{
+   width: 350px;
+   height: 300px;
+   background-color: white;
+   margin-left: 20px;
+}
+#title{
+   color: rgb(36, 35, 35);
+   font-family: sans-serif;
+   font-weight: 200;
+   font-size: 30px;
+}
+#popular{
+   color: grey;
+   font-family: sans-serif;
+   margin-top: -20px;
+}
+#price{
+   font-size: 30px;
+}
+#para{
+   color: rgb(187, 185, 185);
+   font-family: sans-serif;
+
+}
+.buttons{
+   height: 90px;
+   width: 350px;
+   background-color: white;
+   display: flex;
+}
+#cart{
+   width: 120px;
+   height: 40px;
+   margin-top: 20px;
+   margin-left: 40px;
+   font-size: 15px;
+   font-family: 'Raleway', sans-serif;
+   border: 2px grey;
+   background-color: white;
+   border-style: solid;
+}
+#wishlist{
+   width: 120px;
+   height: 40px;
+   margin-top: 20px;
+   margin-left: 20px;
+   font-size: 15px;
+   font-family: 'Raleway', sans-serif;
+   border: 2px grey;
+   background-color: white;
+   border-style: solid;
+}

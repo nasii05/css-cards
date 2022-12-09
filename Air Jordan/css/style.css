@@ -1,0 +1,81 @@
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+
+.product_card{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(230, 28, 28);
+    border-radius: 20px;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.12);
+}
+.product_section{
+    width: 400px;
+    height: 250px;
+    border-radius: 20px 20px 0px 0px;
+    /* background-color: aquamarine; */
+}
+#image{
+    height: 250px;
+    margin-top: -20px;
+    margin-left: 40px;
+}
+.product_details{
+    width: 400px;
+    height: 100px;
+    /* background-color: aqua; */
+}
+#title{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 80;
+    color: white;
+    margin-left: 90px;
+}
+#desc{
+    font-family: sans-serif;
+    color: white;
+    margin-left: 55px;
+    margin-top: -15px;
+}
+#price{
+    font-family: sans-serif;
+    color: white;
+    margin-left: 170px;
+    font-weight: lighter;
+    font-style:initial;
+    margin-top: -10px;
+}
+.btns{
+    height: 100px;
+    width: 400px;
+    /* background-color: bisque; */
+    display: flex;
+}
+#buy_now{
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.starsvg{
+    height: 40px;
+
+}
+#star{
+    margin-left: 50px;
+    height: 52px;
+    margin-top: 25px;
+    border-color: black;
+    border-radius: 5px;
+}
